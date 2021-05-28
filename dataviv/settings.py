@@ -27,7 +27,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'k70yz_@&kyn%rxae(rehc(##4%sjup*0+-d_w5h&gj6w5y-^j$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['datavivdemo.herokuapp.com', '127.0.0.1']
 
