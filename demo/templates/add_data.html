@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<body>
+<form action="" method="POST">
+    {% csrf_token %}
+    {{form}}
+    <div><h1>Graduates</h1></div>
+    {{formgrads}}
+    <div><h1>Literacy rate</h1></div>
+    {{formliteracyrate}}
+    <div><h1>Literates</h1></div>
+    {{formliterates}}
+    <div><h1>Population</h1></div>
+    {{formpopulation}}
+    <div><h1>Population 0-6</h1></div>
+    {{formpopulation0to6}}
+    <div><h1>Sex ratio</h1></div>
+    {{formratio}}
+
+
+
+
+
+    <input type="submit" name="Submit">
+</form>
+</body>
+
+
+</head>
+
+</html>
