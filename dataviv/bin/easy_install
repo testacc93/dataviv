@@ -1,4 +1,4 @@
-#!/home/ankur/Desktop/myproject/dataviv/dataviv/bin/python3
+#!/home/ankur/Desktop/myproject/dataviv/dataviv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
